@@ -1,0 +1,136 @@
+*{
+   padding: 0%; 
+   margin: 0%;
+   background-color: #548687;
+}
+.founder{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+.tic{
+    text-align: center;
+    font-size: 8vmin;
+    color: aliceblue;
+}
+.container{
+    height: 60vh;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+/* .background{
+    background-image: url('ammy.jpg');
+
+    background-size: contain;
+} */
+.box{
+    height: 60vh;
+    width: 60vmin;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+    background: none;
+}
+
+.btn{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: 7 0 0 0 .5;
+    color: #c5302e;
+    font-size: 8vmin;
+    font-weight: 900;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 15px 5px black .2;
+    
+    /* background: none; */
+}
+
+.reset{
+    width: 34vmin;
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    /* color: aliceblue; */
+    color: #fdfdfd;
+    border-radius: 5px;
+    font-weight: 900;
+    padding: 2vmin;
+}
+
+
+.button-option{
+    text-align: center;
+    
+}
+
+
+.winner{
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+.new-btn{
+    width: 17vmin;
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    /* color: aliceblue; */
+    color: #fdfdfd;
+    border-radius: 5px;
+    font-weight: 900;
+    padding: 5px;   
+}
+
+.hide{
+    display: none;
+    /* color: #c5302e; */
+}
+
+/* For devices with a maximum width of 600px */
+@media only screen and (max-width: 320px) {
+    .new-btn {
+        width: 33vmin;
+        border: 1px solid black;
+        background-color: rgb(0, 0, 0);
+        /* color: aliceblue; */
+        color: #fdfdfd;
+        border-radius: 5px;
+        font-weight: 900;
+        padding: 2px;
+  }
+  .reset {
+    width: 100px;
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    /* color: aliceblue; */
+    color: #fdfdfd;
+    border-radius: 5px;
+    /* font-weight: 900; */
+    padding: 2vmin;
+  }
+  
+}
+
+
+@media only screen and (max-width: 146px)
+{
+
+
+.box {
+    height: 46vh;
+    width: 60vmin;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+    background: none;
+}
+.player{
+    font-size: 13px;
+}
+}
